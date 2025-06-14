@@ -5,5 +5,5 @@ from flask import Flask
 app = Flask(__name__)
 @app.route('/')
 def main():
-  returt("server hackd")
+  return("server hackd")
 
