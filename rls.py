@@ -2,7 +2,7 @@ import os
 print("rls")
 input("")
 os.system("pip install flask")
-from Flash import Flask
+from Flask import Flask
 app = Flask
 @app.route('/')
 def main():
